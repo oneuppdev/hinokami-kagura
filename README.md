@@ -46,4 +46,4 @@ export default greeting;
 
 ESM modules works better for tree shaking, leading to faster dev time, and smaller production bundles.
 
-To learn more, you can readd this [post](https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking).
+To learn more, you can read this [post](https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking).
