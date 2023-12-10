@@ -1,0 +1,10 @@
+{
+  "name": "hinokami-kagura",
+  "packageManager": "yarn@4.0.2",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "del-cli": "^5.1.0"
+  }
+}
