@@ -1,0 +1,9 @@
+{
+  "name": "@hinokami-kagura/storybook",
+  "packageManager": "yarn@4.0.2",
+  "private": true,
+  "dependencies": {
+    "@hinokami-kagura/foundation": "workspace:^",
+    "@hinokami-kagura/react": "workspace:^"
+  }
+}

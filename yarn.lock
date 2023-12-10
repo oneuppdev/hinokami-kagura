@@ -33,6 +33,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hinokami-kagura/foundation@workspace:^, @hinokami-kagura/foundation@workspace:packages/foundation":
+  version: 0.0.0-use.local
+  resolution: "@hinokami-kagura/foundation@workspace:packages/foundation"
+  languageName: unknown
+  linkType: soft
+
+"@hinokami-kagura/react@workspace:^, @hinokami-kagura/react@workspace:packages/react":
+  version: 0.0.0-use.local
+  resolution: "@hinokami-kagura/react@workspace:packages/react"
+  dependencies:
+    "@hinokami-kagura/foundation": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
+"@hinokami-kagura/storybook@workspace:packages/storybook":
+  version: 0.0.0-use.local
+  resolution: "@hinokami-kagura/storybook@workspace:packages/storybook"
+  dependencies:
+    "@hinokami-kagura/foundation": "workspace:^"
+    "@hinokami-kagura/react": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
