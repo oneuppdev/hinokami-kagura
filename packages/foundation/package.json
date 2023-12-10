@@ -1,4 +1,7 @@
 {
   "name": "@hinokami-kagura/foundation",
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "typescript": "4.7.2"
+  }
 }

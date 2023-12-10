@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "declaration": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "baseUrl": ".",
+    "paths": {
+      "@hinokami-kagura/*": ["packages/*/dist"]
+    }
+  },
+  "exclude": ["node_modules", "**/*.test.*"]
+}

@@ -1,7 +1,13 @@
 {
   "name": "@hinokami-kagura/react",
   "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@hinokami-kagura/foundation": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "4.7.2"
   }
 }
